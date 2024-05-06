@@ -10,6 +10,6 @@ int main()
     {
         soma = v[i] + soma;
     }
-    printf("A soma de todos os elementos do vetor é %d\n\n",soma);
-return 0;
+    printf("A soma de todos os elementos do vetor é %d\n\n", soma);
+    return 0;
 }

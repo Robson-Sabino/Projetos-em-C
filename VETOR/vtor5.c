@@ -6,8 +6,8 @@ int main(void)
     for(int i = 0; i < 200; i++)
     {
         nota[i] = valor;
-        valor ++;
-        printf("%i\n",nota[i]);
+        valor++;
+        printf("%i\n", &nota[i]);
         
     }
     return 0;
