@@ -10,7 +10,7 @@ int main(void)
     }
     for (int j = 0; j < 10; j++)
     {
-        printf("%i ", nota[j]);
+        printf("%i,", nota[j]);
     }
     return 0;
 }
