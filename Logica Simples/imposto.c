@@ -1,4 +1,4 @@
-//Calculo de porcentagem de imposto
+// Calculo de porcentagem de imposto
 #include <stdio.h>
 int main()
 {
