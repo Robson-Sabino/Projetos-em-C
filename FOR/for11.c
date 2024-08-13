@@ -4,7 +4,8 @@ int main()
 {
     for (int i = -234; i < 457; i++)
     {
-        printf("Numero %i\n\n", i);
+        printf("\nNumero %i", i);
     }
+    printf("\n\n");
     return 0;
 }

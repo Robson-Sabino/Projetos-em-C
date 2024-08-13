@@ -7,7 +7,7 @@ int main()
     scanf("%i", &numero);
     for (int i = numero; i >= 0; i--)
     {
-        printf("Numero: %i\n\n", i);
+        printf("Numero %i\n\n", i);
     }
     return 0;
 }

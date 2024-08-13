@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main()
 {
-    for (int i = 4; i >-30; i--)
+    for (int i = 4; i >=-30; i--)
     {
-        printf("ola %i\n", i);
+        printf("Olá %i\n", i);
     }
 
     return 0;

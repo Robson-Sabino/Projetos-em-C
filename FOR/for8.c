@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    float x, y;
+    float x = 0, y = 0;
     for (int i = 1; i < 11; i++)
     {
         printf("Nota %i\n",i);

@@ -4,7 +4,7 @@ int main()
 {
     for (int i = 94; i >=4; i--)
     {
-        printf("\nola %i", i);
+        printf("\nOlá %i", i);
     }
     return 0;
 }

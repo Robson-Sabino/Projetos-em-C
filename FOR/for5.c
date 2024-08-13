@@ -1,4 +1,4 @@
-// sequencia de mensagem com for aninhado
+// Sequencia de mensagem com for aninhado
 #include <stdio.h>
 int main()
 {
@@ -6,7 +6,7 @@ int main()
     {
         for (int x = 1; x < 4; x++)
         {
-            printf("%i %i\n", i, x);
+            printf("Olá %i %i\n", i, x);
         }
     }
     return 0;

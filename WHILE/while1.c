@@ -2,11 +2,13 @@
 #include <stdio.h>
 int main()
 {
-    int i;
+    int i = 0;
     while (i <= 358)
     {
-        printf("\nOla %i\n", i);
+        printf("\nOlá %i", i);
         i++;
     }
+
+    printf("\n\n");
     return 0;
 }

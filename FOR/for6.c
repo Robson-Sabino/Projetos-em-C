@@ -6,9 +6,8 @@ int main()
     {
         for (int x=4; x>=0; x--)
         {
-            printf("%i %i\n", i, x);
+            printf("Olá %i %i\n", i, x);
         }
     }
-
     return 0;
 }

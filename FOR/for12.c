@@ -7,7 +7,8 @@ int main()
     scanf("%i", &numero);
     for (int i = 1; i < 11; i++)
     {
-        printf("%i*%i=%i\n\n",numero,i,numero * i);
+        printf("\n%i * %i = %i",numero,i,numero * i);
     }
+    printf("\n\n");
     return 0;
 }

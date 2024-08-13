@@ -8,7 +8,7 @@ int main()
         {
             for (int y = 1; y <= 100; y++)
             {
-                printf("%i %i %i\n", i, x, y);
+                printf("Olá %i %i %i\n", i, x, y);
             }
         }
     }
