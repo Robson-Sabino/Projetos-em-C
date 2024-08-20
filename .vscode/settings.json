@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "14.C": "cpp",
+        "15.C": "cpp",
+        "16.C": "cpp",
+        "20.C": "cpp",
+        "19.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
