@@ -12,8 +12,8 @@ int main()
             {
                 resultado ++;
             }
-            // printf("comparando valores ,%d,%d\n", vetor[x], vetor[i]);
         }
     }
-    return 0;
+printf("comparando valores ,%d,%d\n", vetor[x], vetor[i]);
+return 0;
 }

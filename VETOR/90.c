@@ -19,7 +19,7 @@ int main()
             menor++;
         }
     }
-    if (maior > menor)
+    if (maior < menor)
     {
         printf("A maioria pode dirigir\n");
     }
