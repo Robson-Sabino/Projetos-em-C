@@ -1,4 +1,5 @@
-//seguencia de mensagem
+// Seguencia de mensagem
+
 #include <stdio.h>
 int main()
 {
@@ -8,7 +9,6 @@ int main()
         printf("\nOlá %i", i);
         i++;
     }
-
     printf("\n\n");
     return 0;
 }

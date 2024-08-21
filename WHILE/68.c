@@ -1,4 +1,4 @@
-// sequenci de mensagem com range ao contrario
+// Sequência de mensagem com range ao contrario
 #include <stdio.h>
 int main()
 {
@@ -8,6 +8,6 @@ int main()
         printf("\nOla %i", i);
         i--;
     }
-
+    printf("\n\n");
     return 0;
 }

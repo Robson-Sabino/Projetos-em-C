@@ -13,5 +13,6 @@ int main()
         }
         i++;
     }
-    return 0;
+printf("\n\n");
+return 0;
 }

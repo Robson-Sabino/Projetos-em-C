@@ -1,4 +1,5 @@
-// sequencia de mensagem com range
+// Sequência de mensagem com range
+
 #include <stdio.h>
 int main()
 {
@@ -8,5 +9,6 @@ int main()
         printf("\nOla %i", i);
         i++;
     }
+    printf("\n\n");
     return 0;
 }
