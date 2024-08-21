@@ -2,18 +2,18 @@
 #include <stdio.h>
 int main()
 {
-    int resultado = 0, vetor[] = {34, 22, 34, 98, 74, 34, 41, 12, 56, 34, 78};
+    int i, x, vetor[] = {34, 22, 34, 98, 74, 34, 41, 12, 56, 34, 78}, cont[11] = {0};
 
-    for (int i = 0; i <= 11; i++)
+    for ( i = 0; i <= 11; i++)
     {
-        for (int x = 0; x < i; x++)
+        for ( x = 0; x < i; x++)
         {
-            if (vetor[x] == vetor[i])
+            if (vetor[i] == vetor[x])
             {
-                resultado ++;
+                cont[i] ++;
             }
         }
     }
-printf("comparando valores ,%d,%d\n", vetor[x], vetor[i]);
+
 return 0;
 }
