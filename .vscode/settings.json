@@ -7,7 +7,8 @@
         "20.C": "cpp",
         "19.C": "cpp",
         "43.C": "cpp",
-        "61.C": "cpp"
+        "61.C": "cpp",
+        "100.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

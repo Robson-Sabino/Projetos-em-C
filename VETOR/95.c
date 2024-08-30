@@ -7,9 +7,7 @@ int main()
     int i;
     int soma;
     for (i = 0; i < 10; i++)
-    {
         soma = v[i] + soma;
-    }
     printf("A soma de todos os elementos do vetor é %d\n\n", soma);
     return 0;
 }
