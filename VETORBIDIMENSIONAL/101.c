@@ -3,14 +3,14 @@
 #include <stdio.h>
 int main()
 {
-    float notaAluno[4], somaNotaaluno[4], soma = 0, media[4];
+    float notaAluno[4], somaNotaaluno[5], soma = 0, media[5];
     int contAluno = 1, possicaoVetor = 0;
     for (int i = 0; i < 4; i++)
         notaAluno[i] = 0;
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 6; i++)
         media[i] = 0;
 
-    for (int i = 0; i < 5; i++)
+    for (int a = 0; a < 5; a++)
     {
         printf("Digite as notas do aluno %i \n", contAluno);
         for (int i = 0; i < 4; i++)
