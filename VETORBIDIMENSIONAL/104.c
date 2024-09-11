@@ -78,9 +78,9 @@ int main()
                 }
             }
         }
-    cordenadas = 1;
+        cordenadas = 1;
     }
-printf("\nVelha, não houve ganhadores!!\n\n");
-printf("\n\n");
-return 0;
+    printf("\nVelha, não houve ganhadores!!\n\n");
+    printf("\n\n");
+    return 0;
 }
