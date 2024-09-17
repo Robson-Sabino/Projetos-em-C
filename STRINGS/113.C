@@ -1,11 +1,11 @@
-// Extrator de texto 2
+// Extrator de texto 1
 
 #include <stdio.h>
 #include <string.h>
 
 int main(void)
 {
-    char frase[] = "<23489sadsadasd238>Exemplo</302asdasdas49>";
+    char frase[] = "<ul><li>Exercício</li></ul>";
     int dentroTag = 0;
 
     printf("Texto extraído: ");

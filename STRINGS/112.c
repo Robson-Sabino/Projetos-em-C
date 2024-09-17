@@ -1,26 +1,34 @@
-// Verificador de palavras
+// Identificador de substring 2
 
 #include <stdio.h>
 #include <string.h>
 
 int main(void)
 {
-    char palavra[5];
-    int tamanho = sizeof(palavra) / sizeof(palavra[0]);
+    char palavraUm[30];
+    char palavraDois[30];
+    int tamanhoUm = sizeof(palavraUm) / sizeof(palavraUm[0]);
+    int tamanhoDois = sizeof(palavraDois) / sizeof(palavraDois[0]);
     int existe = 0;
-    printf("Digite uma palavra:\n");
-    scanf("%s", &palavra);
-    for (int i = 0; i < tamanho; i++)
+    printf("Digite a palavra 1:\n");
+    scanf("%s", palavraUm);
+    printf("\n");
+    printf("Digite a palavra 2:\n");
+    scanf("%s", palavraDois);
+    for (int i = 0; i <= tamanhoDois - tamanhoUm; i++)
     {
-        if (palavra[i] == 68 && palavra[i + 1] == 79)
+        for (int j = 0; j < tamanhoUm; j++)
         {
-            printf("A sequência existe");
-            existe = 1;
-            break;
+            if (palavraDois[i + j] != palavraUm[j])
+            {
+                printf("Existe");
+                existe = 1;
+                break;
+            }
         }
     }
     if (existe == 0)
-        printf("A sequência não existe");
+        printf("Não existe");
     printf("\n\n");
     return 0;
 }

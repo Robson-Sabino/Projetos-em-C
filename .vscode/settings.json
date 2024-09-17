@@ -12,7 +12,16 @@
         "106.C": "cpp",
         "108.C": "cpp",
         "111.C": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "115.C": "cpp",
+        "109.C": "cpp",
+        "113.C": "cpp",
+        "116.C": "cpp",
+        "118.C": "cpp",
+        "119.C": "cpp",
+        "120.C": "cpp",
+        "121.C": "cpp",
+        "122.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
